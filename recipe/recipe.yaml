@@ -10,7 +10,7 @@ source:
   sha256: 9a692854733333643b6108f68bed0239b266c461e15125781503d957c9b47842
 
 build:
-  number: 1
+  number: 2
   script:
     - go-licenses save ./cmd/tssh --save_path ./library_licenses
     - if: unix
